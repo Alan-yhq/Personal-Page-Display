@@ -18,7 +18,7 @@ function getAchives(){
     t = ``;
     $.ajax({
         type:"GET",
-        url:"https://blog.alanyhq.com/wp-json/wp/v2/posts?per_page=8&page=1",
+        url:"https://your blog url/wp-json/wp/v2/posts?per_page=8&page=1",
         dataType:"json",
         success:function(json){
             for(var i = 0;i < json.length;i++){
